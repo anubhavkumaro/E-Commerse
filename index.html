@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina | Premium Tech Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">Lumina.</div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <button class="icon-btn"><i class="fas fa-search"></i></button>
+            <button class="icon-btn cart-btn">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="badge">0</span>
+            </button>
+            <button class="mobile-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience the <span class="gradient-text">Future</span> Today</h1>
+            <p>Discover premium audio and futuristic tech gear designed for the modern creator.</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero.png" alt="Futuristic Headphones" class="hero-img-real">
+        </div>
+    </section>
+
+    <!-- Features Strip -->
+    <div class="features-strip">
+        <div class="feature">
+            <i class="fas fa-truck-fast"></i>
+            <div>
+                <h3>Free Shipping</h3>
+                <p>On all orders over $50</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="fas fa-shield-alt"></i>
+            <div>
+                <h3>Secure Payment</h3>
+                <p>100% protected transactions</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="fas fa-undo"></i>
+            <div>
+                <h3>Easy Returns</h3>
+                <p>30-day money back guarantee</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="section-header">
+            <h2>Trending <span class="gradient-text">Arrivals</span></h2>
+            <p>Curated selection of best-selling gear.</p>
+        </div>
+
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <div class="card-placeholder p1"></div>
+                    <button class="add-wishlist"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="category">Audio</span>
+                    <h3>Lumina X1 Headphones</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.8)</span>
+                    </div>
+                    <div class="price-row">
+                        <span class="price">$299.00</span>
+                        <button class="btn-icon-sm"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Product 2 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="images/smartwatch.png" alt="Smart Watch Ultra" class="product-img-real">
+                    <button class="add-wishlist"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="category">Wearables</span>
+                    <h3>Smart Watch Ultra</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(4.2)</span>
+                    </div>
+                    <div class="price-row">
+                        <span class="price">$199.00</span>
+                        <button class="btn-icon-sm"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Product 3 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <div class="card-placeholder p3"></div>
+                    <button class="add-wishlist"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="category">Photography</span>
+                    <h3>Lens Pro Kit</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(5.0)</span>
+                    </div>
+                    <div class="price-row">
+                        <span class="price">$450.00</span>
+                        <button class="btn-icon-sm"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Product 4 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <div class="card-placeholder p4"></div>
+                    <button class="add-wishlist"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="product-info">
+                    <span class="category">Gaming</span>
+                    <h3>Cyber Controller</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <span>(3.9)</span>
+                    </div>
+                    <div class="price-row">
+                        <span class="price">$59.99</span>
+                        <button class="btn-icon-sm"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col brand-col">
+                <h3>Lumina.</h3>
+                <p>Redefining the way you experience technology.</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">All Products</a></li>
+                    <li><a href="#">Featured</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-col newsletter">
+                <h4>Stay Updated</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="button"><i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Lumina Tech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
